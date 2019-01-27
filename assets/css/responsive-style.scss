@@ -1,0 +1,149 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .navbar{
+        padding: 20px;
+        .navbar-toggle{
+            margin: 0px;
+        }
+        .nav{
+            &.navbar-nav{
+                padding: 0px;
+                li{
+                    padding: 0px;
+                    margin: 5px 0px;
+                    a{
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .top-category {
+        ul{
+            > li{
+                width: 50%;
+            }
+        }
+    }
+    .footer{
+        &-widget{
+            &.navigation{
+                ul{
+                    li{
+                        margin-right: 21px !important;
+                    }
+                }
+            }
+            &.qrcode{
+                margin-top: 50px;
+            }
+            &.logo{
+                margin-bottom: 20px;
+            }
+        }
+        .copyright{
+            margin: 20px 0px;
+            text-align: center;
+        }
+    }
+    #home_content {
+        .merchants{
+            &__item{
+                &__list{
+                    margin-right: 9px;
+                    width: 48%;
+                    margin-bottom: 9px;
+                    &:nth-child(even){
+                        margin-right: 0px;
+                    }
+                    img{
+                        position: inherit;
+                        transform: translate(0%, 25%);
+                    }
+                }
+            }
+            &__cta{
+                a{
+                    width: 50%;
+                }
+            }
+        }
+        .blog{
+            &__item{
+                &__section{
+                    &__cta{
+                        margin: 10px 30px;
+                        a{
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    #download {
+        .download{
+            &__content{
+                height: 177px;
+                .gp{
+                    width: 60%;
+                    float: right;
+                    margin-bottom: 6px;
+                }
+                .as{
+                    width: 60%;
+                    float: right;
+                }
+                .qr{
+                    width: 39%;
+                }
+            }
+            &__icon{
+                position: relative;
+                left: 27%;
+                top: 50%;
+            }
+        }
+    }
+    #contact_us, #ezeetunai {
+        .contactus, .ezeetunai{
+            &__content{
+                &__download{
+                    a{
+                        display: block;
+                        text-align: center;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+    } 
+    #merchants{
+        .merchants{
+            &__title{
+                h4 {
+                    a{
+                        display: block;
+                        width: 100%;
+                        margin-left: 0px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+            &__cta{
+                a{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}

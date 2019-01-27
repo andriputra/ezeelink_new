@@ -1,0 +1,72 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar {
+    padding: 20px; }
+    .navbar .navbar-toggle {
+      margin: 0px; }
+    .navbar .nav.navbar-nav {
+      padding: 0px; }
+      .navbar .nav.navbar-nav li {
+        padding: 0px;
+        margin: 5px 0px; }
+        .navbar .nav.navbar-nav li a {
+          padding: 0px; }
+
+  .top-category ul > li {
+    width: 50%; }
+
+  .footer-widget.navigation ul li {
+    margin-right: 21px !important; }
+  .footer-widget.qrcode {
+    margin-top: 50px; }
+  .footer-widget.logo {
+    margin-bottom: 20px; }
+  .footer .copyright {
+    margin: 20px 0px;
+    text-align: center; }
+
+  #home_content .merchants__item__list {
+    margin-right: 9px;
+    width: 48%;
+    margin-bottom: 9px; }
+    #home_content .merchants__item__list:nth-child(even) {
+      margin-right: 0px; }
+    #home_content .merchants__item__list img {
+      position: inherit;
+      transform: translate(0%, 25%); }
+  #home_content .merchants__cta a {
+    width: 50%; }
+  #home_content .blog__item__section__cta {
+    margin: 10px 30px; }
+    #home_content .blog__item__section__cta a {
+      width: 50%; }
+
+  #download .download__content {
+    height: 177px; }
+    #download .download__content .gp {
+      width: 60%;
+      float: right;
+      margin-bottom: 6px; }
+    #download .download__content .as {
+      width: 60%;
+      float: right; }
+    #download .download__content .qr {
+      width: 39%; }
+  #download .download__icon {
+    position: relative;
+    left: 27%;
+    top: 50%; }
+
+  #contact_us .contactus__content__download a, #contact_us .ezeetunai__content__download a, #ezeetunai .contactus__content__download a, #ezeetunai .ezeetunai__content__download a {
+    display: block;
+    text-align: center;
+    margin: 10px 0px; }
+
+  #merchants .merchants__title h4 a {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px; }
+  #merchants .merchants__cta a {
+    width: 50%; } }
+
+/*# sourceMappingURL=responsive-style.css.map */
