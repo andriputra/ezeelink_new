@@ -16,7 +16,7 @@ a{
     }
 }
 .navbar{
-    background-color: #ff0d36;
+    background-color: #ec2228;
     padding: 40px 0px;
     border-radius: 0px;
     margin-bottom: 0px;
@@ -239,7 +239,7 @@ a{
             }
         }
     }
-    .feature, .merchants, .blog{
+    .feature, .merchants, .blog, .testimonial{
         &__title{
             h4{
                 color: #646465;
@@ -541,5 +541,10 @@ a{
                 }
             }
         }
+    }
+}
+.testimonial{
+    .testimoni{
+        width: 100%;
     }
 }

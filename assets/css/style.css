@@ -14,7 +14,7 @@ a:hover {
   text-decoration: none; }
 
 .navbar {
-  background-color: #ff0d36;
+  background-color: #ec2228;
   padding: 40px 0px;
   border-radius: 0px;
   margin-bottom: 0px; }
@@ -149,14 +149,14 @@ a:hover {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 20px; }
-#home_content .feature__title h4, #home_content .merchants__title h4, #home_content .blog__title h4 {
+#home_content .feature__title h4, #home_content .merchants__title h4, #home_content .blog__title h4, #home_content .testimonial__title h4 {
   color: #646465;
   font-size: 18px;
   margin: 20px 0px;
   font-weight: 600; }
-#home_content .feature__slide, #home_content .merchants__slide, #home_content .blog__slide {
+#home_content .feature__slide, #home_content .merchants__slide, #home_content .blog__slide, #home_content .testimonial__slide {
   margin-bottom: 20px; }
-#home_content .feature__item img, #home_content .merchants__item img, #home_content .blog__item img {
+#home_content .feature__item img, #home_content .merchants__item img, #home_content .blog__item img, #home_content .testimonial__item img {
   border-radius: 5px; }
 #home_content .merchants__item ul {
   margin-bottom: 20px; }
@@ -328,5 +328,8 @@ a:hover {
       margin-bottom: 0px; }
     #contact_us .contactus__content__form .form .form-group textarea.form-control {
       height: 132px; }
+
+.testimonial .testimoni {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
